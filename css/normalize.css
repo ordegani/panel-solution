@@ -350,7 +350,7 @@ template {
   display: none;
 }
 
-*****
+/* ==========================================================================  */
 
 .dropdown {
   position: relative;
@@ -387,9 +387,7 @@ template {
   display: inline-block;
   float: left;
 }
-
-***
-
+/* ==========================================================================  */
 ul {
   text-align: center;
 }
@@ -397,6 +395,13 @@ h1{
   margin-top: 5vh;
   text-align: center;
 }
+.nav {
+  border-bottom: 1px solid #E0E1E2; 
+}
+li {
+  display: inline;
+  padding: 150px;
+} 
 .header{
   text-align: center;
 }
@@ -404,6 +409,7 @@ h1{
 height: 300vh;
 opacity: 25%;
 }
+/* ==========================================================================  */
 #addingOption, .addingSubOption{
 margin-right: 5px;
 }
@@ -416,14 +422,7 @@ min-width: 100%;
 max-width: fit-content;
 z-index: 1;
 position: fixed;
-}
-.nav {
-  border-bottom: 1px solid #E0E1E2; 
-}
-li {
-  display: inline;
-  padding: 150px;
-}    
+}   
 .MyShortcuts{
   margin: 4px, 4px;
   padding: 4px;
