@@ -421,7 +421,6 @@ min-height: fit-content;
 min-width: 100%;
 max-width: fit-content;
 z-index: 1;
-position: fixed;
 }   
 .MyShortcuts{
   margin: 4px, 4px;
